@@ -1,0 +1,62 @@
+body {
+	margin: 0px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+.containerPass {
+	display: flex;
+	justify-content: center;
+}
+
+.passwordGenerator {
+	margin-left: 40%;
+	margin-top: 40px;
+}
+
+h1, .form, .container {
+	border: 2px black solid;
+	border-radius: 15px;
+	width: 300px;
+	margin-bottom: 30px;
+	box-shadow: 1px 1px 5px black;
+}
+
+h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+.form {
+	margin-bottom: 30px;
+	padding: 10px;
+	padding-bottom: 25px; 
+}
+
+.container {
+	padding: 10px;
+}
+
+.change-theme {
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+.change-theme ul {
+	list-style-type: none;
+}
+
+.change-theme a {
+	display: block;
+	border: 1px black solid;
+	padding: 10px;
+}
+
+.formGreenBackground {
+	background-color: #b1ff9e;
+	border: 2px #41912d solid;
+}
+
+.backgroundGreen {
+	background-color: #deffd6;
+}

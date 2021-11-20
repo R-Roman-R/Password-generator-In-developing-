@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Генератор паролей</title>
+	</head>
+	<body class="background">
+		<header>
+
+		</header>
+		<main>
+			<div class="containerPass">
+				<div class="passwordGenerator">
+					<h1 class="theme">Генератор паролей</h1>	
+					<div class="form theme">
+						<p>Введите количество символов:</p>
+						<input type="text" id='userAnswer'><br>
+						<input type="checkbox" name="numbers" id="numbers">
+						<label for="numbers">Числа</label><br>
+						<input type="checkbox" name="symbols" id="symbols">
+						<label for="symbols">Специальные символы</label><br>
+						<input type="checkbox" name="upperCase" id="upperCase">
+						<label for="upperCase">Верхний регистр</label><br>
+						<a href="#" onclick="getPassword()">Cгенерировать</a>
+					</div>
+					<div class='container theme'>
+						<p class="empty"></p>
+						<p class="empty"></p>	
+						<p class="empty"></p>
+						<p class="empty"></p>
+						<p class="empty"></p>
+						<p class="empty"></p>
+					</div>
+				</div>
+				<div class="change-theme">
+					<ul>
+						<li><a href="#" onclick="greenTheme()">Зеленая тема</a></li>
+						<li><a href="#" onclick="blueTheme()">new theme2</a></li>
+						<li><a href="#" onclick="newTheme2()">new theme3</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+		<script type="text/javascript" src='jsPass.js'></script>
+	</body>
+</html>
